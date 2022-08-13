@@ -1,0 +1,44 @@
+body{
+  background-color:black;
+}
+#loginWrap{
+  background-color:white;
+  color:black;
+  width:20vw;
+  height:50vh;
+  border-radius: 25px;
+  position: relative;
+  margin: 200px auto 0px auto;
+  text-align:center;
+  padding-top:40px;
+}
+
+#id,#password,#startId,#startPassword{
+  height:20px;
+  padding-bottom:10px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid black;
+  background: rgba(0, 0, 0, 0.0);
+  width:60%;
+  text-align: center;
+  font-size:15px;
+}
+#loginBut, #startBut{
+  font-size:20px;
+  display:block;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0.0);
+  margin: 10px auto 20px auto;
+}
+#start{
+  margin-top:60px;
+  padding-top:40px;
+}
+#id,#password,#startId,#startPassword:hover{
+  cursor: pointer;
+}
+#loginBut, #startBut:hover{
+  cursor: pointer;
+}

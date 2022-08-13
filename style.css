@@ -1,0 +1,242 @@
+body{
+  width:100%;
+  height:100vh;
+  color: white;
+}
+#wrap::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+#left{
+  float: left;
+  width: 30%;
+}
+main{
+  float: left;
+  width: 40%;
+}
+#right{
+  float: left;
+  width: 30%;
+}
+#clock{
+  text-align: center;
+  width: 100%;
+  height: 250px;
+  background-color:black;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin:10vh auto 1px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+}
+#clock h2{
+  font-size: 160px;
+  margin:15px auto 1px auto;
+}
+#background img{
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  position:absolute;
+  z-index: -1;
+  opacity: 0.9;
+  object-fit:fill;
+}
+#submitForm{
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  background-color:black;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin: 10px auto 1px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+}
+
+#ListDay{
+  background-color:black;
+  width:49%;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin:10px auto 0px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+  float: left;
+}
+#ListMor{
+  background-color:black;
+  width:49%;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin:10px auto 0px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+  float: right;
+}
+#ListDay h3{
+  font-size:15px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:25px;
+  margin-left:25px;
+  text-align:center;
+  float: left;
+}
+#ListDay>div::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+#ListDay div span{
+  float:right;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:15px;
+}
+#ListDay div span:hover{
+  cursor: pointer;
+}
+#ListDay li button{
+  border: 0px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#ListMor h3{
+  font-size:15px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:25px;
+  margin-left:25px;
+  text-align:center;
+  float: left;
+}
+#ListMor>div::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+#ListMor div span{
+  float:right;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:15px;
+}
+#ListMor div span:hover{
+  cursor: pointer;
+}
+#ListMor li button{
+  border: 0px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.done{
+  text-decoration: line-through;
+}
+#submit{
+  width:100%;
+  height:100%;
+  padding:5%;
+}
+#submit::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+#submit1{
+  float:left;
+  width:53px;
+  height:42px;
+}
+#submit1 label{
+  float:left;
+  width:53px;
+  height:42px;
+  margin-bottom:5px;
+}
+#submit2{
+  float:left;
+}
+#submit2 input{
+  float:left;
+}
+#input{
+  height:30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid black;
+  background: rgba(0, 0, 0, 0.0);
+  margin-top:13px;
+  margin-left:35px;
+  width:300px;
+}
+#button{
+  height:30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  background: rgba(0, 0, 0, 0.0);
+  margin-top:15px;
+}
+
+
+
+
+
+
+
+
+
+#button:hover{
+  cursor: pointer;
+}
+
+#ListDay h3:hover{
+  cursor: default;
+  font-size:15px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-right:25px;
+  margin-left:25px;
+  text-align:center;
+  float: left;
+}
+#ListDay>div::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+
+#ListDay div span:hover{
+  cursor: pointer;
+}
+#ListDay li button:hover{
+  cursor: pointer;
+}
+
+#ListMor h3:hover{
+  cursor: default;;
+}
+#ListMor>div::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+#ListMor div span:hover{
+  cursor: pointer;
+}
+#ListMor li button:hover{
+  cursor: pointer;
+}
+.done{
+  text-decoration: line-through;
+}
+.pointer:hover{
+  cursor: pointer;
+}

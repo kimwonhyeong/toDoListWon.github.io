@@ -1,0 +1,46 @@
+#nameInput{
+  height:30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 3px solid black;
+  background: rgba(0, 0, 0, 0.0);
+  margin-top:100px;
+  width:300px;
+}
+#nameButton:hover{
+  cursor: pointer;
+}
+#nameButton{
+  height:30px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  background: rgba(0, 0, 0, 0.0);
+  margin-top:100px;
+}
+.nameStyle{
+  color:white;
+  font-size:40px;
+  text-align: center;
+  width: 90%;
+
+  background-color:black;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin:10vh auto 1px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+}
+#nameSubmitForm{
+    text-align: center;
+    width: 90%;
+    height: 250px;
+    background-color: black;
+    border-radius: 7px;
+    border: 1px solid black;
+    margin:10vh auto 1px auto;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 1px 1px gray;
+}

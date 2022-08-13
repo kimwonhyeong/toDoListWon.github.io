@@ -1,0 +1,10 @@
+#weather{
+  text-align: center;
+  width: 70%;
+  background-color:black;
+  border-radius: 7px;
+  border: 1px solid black;
+  margin:10px auto 1px auto;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 1px 1px 1px 1px gray;
+}

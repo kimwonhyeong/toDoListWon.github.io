@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="your.css" rel="stylesheet" type="text/css" />
+  <link href="vacation.css" rel="stylesheet" type="text/css" />
+  <link href="quotes.css" rel="stylesheet" type="text/css" />
+  <link href="DDay.css" rel="stylesheet" type="text/css" />
+  <link href="weather.css" rel="stylesheet" type="text/css" />
+  <link href="login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id=loginWrap>
+    <form id="login">
+      <h1>To Do List</h1>
+      <input type="text" placeholder="아이디" id="id" maxlength='8'/>
+      <input type="password" placeholder="비밀번호" id="password" maxlength='13'/>
+      <input type="button" value="로그인" id="loginBut">
+    </form>
+    <form id="start">
+      <input type="text" placeholder="아이디" id="startId" maxlength='8'/>
+      <input type="password" placeholder="비밀번호" id="startPassword" maxlength='13'/>
+      <input type="button" value="회원가입" id="startBut"/>
+    </form>
+  </div>
+  <div id=wrap style="display:none">
+    <aside id="left">
+      <form id="nameSubmitForm">
+        <div>
+          <input id="nameInput" type="text" placeholder="Write Your Name...">
+          <input id="nameButton" type="submit" value="👊">
+        </div>
+      </form>
+      <form id="submitForm">
+        <div id="submit">
+          <div id="submit1">
+            <label><input type="radio" name="to" value="today" id="today">오늘</label>
+            <label><input type="radio" name="to" value="tomorrow" id="tomorrow">내일</label>
+          </div>
+          <div id="submit2">
+            <input id="input" type="text" placeholder="예정된 할 일을 입력하세요...">
+            <input id="button" type="submit" value="👊">
+          </div>
+        </div>
+      </form>
+      <form id="vacationSubmitForm">
+        <div id="vacationSubmit">
+          <div>
+            <input id="vacationInput" type="text" placeholder="휴가 계획을 입력하세요...">
+            <input id="vacationButton" type="submit" value="👊">
+          </div>
+        </div>
+      </form>
+      <div id="vacation">
+        <div>
+          <h3>휴가 리스트 📌</h3>
+          <span id="showButVaction" style="display:none">🔻</span>
+          <span id="NoShowButVaction">🔺</span>
+        </div>
+        <ul></ul>
+      </div>
+    </aside>
+    <main>
+      <div id="clock">
+        <h2></h2>
+      </div>
+      <div id="ListDay">
+        <div>
+          <h3>오늘 📌</h3>
+          <span id="showBut" style="display:none">🔻</span>
+          <span id="NoShowBut">🔺</span>
+        </div>
+        <ul></ul>
+      </div>
+      <div id="ListMor">
+        <div>
+          <h3>내일 📌</h3>
+          <span id="showButTomorr" style="display:none">🔻</span>
+          <span id="NoShowButTomorr">🔺</span>
+        </div>
+        <ul></ul>
+      </div>
+    </main>
+    <aside id="right">
+      <div id=DDayDiv>
+        <h4>우리들의 군생활</h4>
+        <form>
+          <label>전역일:</label>
+          <input type="text" id="DDayInput1" placeholder="year">
+          <input type="text" id="DDayInput2" placeholder="month">
+          <input type="text" id="DDayInput3" placeholder="day">
+          <input type="button" id="DDayBut" value="👊">
+        </form>
+        <h1></h1>
+        <span></span>
+      </div>
+      <div id=quotesDiv>
+        <h4>오늘의 교훈</h4>
+        <p></p>
+        <span></span>
+      </div>
+      <div id=weather>
+        <h3></h3>
+        <span></span>
+      </div>
+    </aside>
+    <div id="background"><img alt="업로드 실패" /></div>
+
+  </div>
+  <script src="script.js"></script>
+  <script src="background.js"></script>
+  <script src="todolist.js"></script>
+  <script src="weather.js"></script>
+  <script src="your.js"></script>
+  <script src="vacation.js"></script>
+  <script src="quotes.js"></script>
+  <script src="DDay.js"></script>
+  <script src="login.js"></script>
+</body>
+
+</html>
